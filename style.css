@@ -1,4 +1,77 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: "Work Sans", sans-serif;
+}
+.bannerContainer {
+  background: rgba(229, 84, 115, 0.1);
+}
+.banner {
+  display: flex;
+  height: 600px;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 900px;
+  gap: 30px;
+  margin: auto;
+}
+
+.banner h1 {
+  font-size: 55px;
+  margin-bottom: 30px;
+}
+.btn {
+  padding: 20px 43px;
+  background-color: #e55473;
+  border: none;
+  border-radius: 8px;
+  margin-top: 30px;
+  color: white;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: transparent;
+  border: 1px solid gray;
+  transition: 0.4s;
+  color: gray;
+}
+.bannerPhoto img {
+  height: 600px;
+}
+.featureContainer {
+  margin: 80px 0;
+}
+.featureText {
+  text-align: center;
+  max-width: 500px;
+  margin: auto;
+}
+.featureText h1 {
+  font-size: 32px;
+  margin-bottom: 22px;
+}
+.featureText p {
+  margin-bottom: 18px;
+  color: gray;
+  font-size: 14px;
+}
+.fetureItems {
+  display: flex;
+  justify-content: center;
+}
+.fetureItems .featureItem img {
+  background-color: #a7216226;
+  width: 190px;
+  height: 300px;
+  margin: 20px;
+  text-align: center;
+  padding: 70px 70px 0px 70px;
+
+  border-radius: 50% 50% 0 0;
+}
+.fetureItems .featureItem h4 {
+  text-align: center;
+  text-decoration: underline;
+}
+.featureItem1 {
 }
