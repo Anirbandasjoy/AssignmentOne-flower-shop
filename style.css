@@ -63,15 +63,88 @@
   background-color: #a7216226;
   width: 190px;
   height: 300px;
-  margin: 20px;
+  margin: 9px;
   text-align: center;
   padding: 70px 70px 0px 70px;
 
   border-radius: 50% 50% 0 0;
 }
+.fetureItems .fetureItem-2 img {
+  background-color: #0597a026;
+}
+.fetureItems .fetureItem-3 img {
+  background-color: #477d1126;
+}
 .fetureItems .featureItem h4 {
   text-align: center;
   text-decoration: underline;
 }
-.featureItem1 {
+.groupContainer {
+  margin-bottom: 80px;
+}
+.groups {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  max-width: 800px;
+  margin: auto;
+  background-color: #2727270d;
+  padding: 40px 120px;
+}
+.signUpContainer {
+  margin: 80px 0;
+  background-color: #e554730d;
+  padding: 60px 0;
+}
+.signUp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 900px;
+  margin: auto;
+  gap: 50px;
+}
+.signUp .signUpText {
+  text-align: center;
+}
+.signUpText h1 {
+  margin-bottom: 17px;
+}
+.signUpText h1 span {
+  color: #e55473;
+}
+.signUpImage img {
+  width: 250px;
+  height: auto;
+}
+.InstagramContainer {
+  margin-bottom: 80px;
+}
+.instagramText {
+  max-width: 500px;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.instagramText h1 {
+  margin-bottom: 12px;
+  font-size: 30px;
+  color: #272727;
+}
+.instagramText p {
+  line-height: 2;
+  font-size: 14px;
+  color: rgba(39, 39, 39, 0.6);
+}
+.instagramImages img {
+  width: 300px;
+  height: auto;
+  margin: 0 10px;
+}
+
+.instagramImages {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
